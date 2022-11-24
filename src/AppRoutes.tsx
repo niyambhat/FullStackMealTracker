@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route,Navigate } from "react-router-do
 
 const routes:any =[];
 
-function AppRoutes() {
+const AppRoutes:React.FC=()=>{
   return (
    <>
    <Router>
